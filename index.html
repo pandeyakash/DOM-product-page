@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Product Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" id="sort">
+      <div>
+        <label for="sort-by">Sort By: </label>
+        <select name="sort-by" id="sort-by">
+          <option value="id">Id</option>
+          <option value="price-ascending">Price (Ascending)</option>
+          <option value="price-descending">Price (Descending)</option>
+          <option value="popularity-ascending">Popularity (Ascending)</option>
+          <option value="popularity-descending">Popularity (Descending)</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="category">Category: </label>
+        <select name="category" id="category">
+          <option value="">Categories</option>
+          <option value="men's-clothing">Mens Clothing</option>
+          <option value="women's-clothing">Women Clothing</option>
+          <option value="electronics">Electronics</option>
+          <option value="jewelery">Jewelery</option>
+        </select>
+      </div>
+    </form>
+
+    <div class="product-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
